@@ -2,7 +2,7 @@ import logoImg from '../assets/images/logo.svg';
 
 import { useParams } from 'react-router-dom';
 
-import { Button } from '../components/Button';
+import { Button, LogOutButton } from '../components/Button';
 import { RoomCode } from '../components/RoomCode';
 import '../styles/room.scss';
 import { useState } from 'react';
